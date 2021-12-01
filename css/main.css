@@ -1,0 +1,112 @@
+/*DEVELOPER: Anuraag Godavari, IS117-003, Fall, 2021 */
+
+body
+{
+	background-color: #d9ead3;
+	margin-bottom: 100px;
+}
+
+.navbar-telugu
+{
+	background-color: #63974b;
+	margin-bottom:20px;
+}
+
+/* Everything within the navbar has to have white text */
+.navbar-telugu *
+{
+	justify-content:center;
+	color: white;
+}
+
+.navbar-telugu .nav-item
+{
+	padding-left: 75px; padding-right: 75px;
+}
+
+.navbar-telugu .dropdown-item
+{
+	color:black;
+}
+
+.navbar-telugu .navbar-brand
+{
+	float: right;
+}
+
+.form-group
+{
+	padding-bottom: 20px;
+	/* max-width: 500px; */
+}
+
+.translate-card
+{
+	margin: 25px 50px;
+	text-align: center;
+}
+
+.translate-card
+{
+	padding-left: 0; padding-right: 0;
+	box-shadow: 0px 7px 15px;
+}
+
+.translate-card:hover, .translate-card:focus
+{
+	
+	
+	padding-left: 0; padding-right: 0;
+	box-shadow: 0px 2px 3px;
+	
+	position: relative;
+	top: 5px;
+}
+
+translate-card .tn_english
+{
+	font-size: 48px;
+}
+
+.translate-card .tn_telugu, .translate-card .tn_transliterate
+{
+	visibility: hidden;
+}
+
+.translate-card:hover .tn_telugu, .translate-card:hover .tn_transliterate,
+.translate-card:focus .tn_telugu, .translate-card:focus .tn_transliterate
+{
+	visibility: visible;
+	position: static;
+}
+
+.tn_col
+{
+	border: 1px solid #63974b;
+	text-align: center;
+	background-color: #c0dac0;
+}
+
+.tn_col_alt
+{
+	border: 1px solid #63974b;
+	text-align: center;
+	background-color: #cde1c5;
+}
+
+#message
+{
+	height:200px;
+	word-wrap: break-word;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #63974b;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
+}
