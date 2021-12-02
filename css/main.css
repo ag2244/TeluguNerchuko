@@ -34,6 +34,64 @@ body
 	float: right;
 }
 
+#tn_carousel, .carousel-item
+{
+	height: 40rem;
+	
+}.home-card
+{
+	margin: 25px 50px;
+	text-align: center;
+	padding-left: 0; padding-right: 0;
+	box-shadow: 0px 7px 15px #63974b;
+
+}
+
+.home-card:hover, .home-card:focus
+{
+	
+	
+	padding-left: 0; padding-right: 0;
+	box-shadow: 0px 2px 3px #63974b;
+	
+	position: relative;
+	top: 5px;
+}
+
+.carousel-item
+{
+	
+	background: #63974b;
+	color: white;
+	position:relative;
+	
+}
+
+.tn_carousel_container
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-bottom:25px;
+}
+
+.tn_carousel-caption
+{
+	background: rgba(99, 151, 75, 0.75);
+}
+
+.btn-tn
+{
+	background: #63974b;
+	color: white;
+}
+
+.btn-tn:hover
+{
+	background: #d9ead3;
+}
+
 .form-group
 {
 	padding-bottom: 20px;
@@ -44,12 +102,9 @@ body
 {
 	margin: 25px 50px;
 	text-align: center;
-}
-
-.translate-card
-{
 	padding-left: 0; padding-right: 0;
-	box-shadow: 0px 7px 15px;
+	box-shadow: 0px 7px 15px #63974b;
+	transition: all 0.3s;
 }
 
 .translate-card:hover, .translate-card:focus
@@ -57,7 +112,7 @@ body
 	
 	
 	padding-left: 0; padding-right: 0;
-	box-shadow: 0px 2px 3px;
+	box-shadow: 0px 2px 3px #63974b;
 	
 	position: relative;
 	top: 5px;
