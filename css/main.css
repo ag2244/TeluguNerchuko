@@ -1,4 +1,4 @@
-/*DEVELOPER: Anuraag Godavari, IS117-003, Fall, 2021 */
+/* DEVELOPER: Anuraag Godavari, IS117-003, Fall, 2021 */
 
 body
 {
@@ -38,24 +38,12 @@ body
 {
 	height: 40rem;
 	
-}.home-card
-{
-	margin: 25px 50px;
-	text-align: center;
-	padding-left: 0; padding-right: 0;
-	box-shadow: 0px 7px 15px #63974b;
-
 }
 
-.home-card:hover, .home-card:focus
+.tn_img
 {
-	
-	
-	padding-left: 0; padding-right: 0;
-	box-shadow: 0px 2px 3px #63974b;
-	
-	position: relative;
-	top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .carousel-item
