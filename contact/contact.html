@@ -27,7 +27,11 @@
                     col-12">
 
                 <!-- Brand -->
-                <a class="navbar-brand" href="../index.html">Logo</a>
+                <a class="navbar-brand" href="../index.html">
+					<img src = "../images/tn_logo.png" alt = "Logo of Telugu Nerchuko" style = "width:50px">
+					&nbsp;&nbsp;<strong>Home</strong>
+				</a>
+				
                 <!-- Responsive Button for the smaller menu -->
                 <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -64,6 +68,16 @@
                             </div>
                         </li>
 						
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Exercises
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../exercises/quiz.html">Quiz</a>
+                            </div>
+                        </li>
+						
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Contact</a>
                         </li>
@@ -94,13 +108,18 @@
                     <label for="message">Message:</label>
 					
 				<textarea id="message" name="message" class="form-control" rows="4" cols="50"></textarea>
-				  
+				
+				<!--
                 <div class="form-group form-check">
                     <label class="form-check-label">
                         <input class="form-check-input"
                                type="checkbox" name="subscribe"> Subscribe
                     </label>
                 </div>
+				-->
+
+				<br>
+				
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
 		

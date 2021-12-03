@@ -137,6 +137,27 @@ translate-card .tn_english
 	background-color: #cde1c5;
 }
 
+.quiz_container
+{
+	display: flex;
+	justify-content: center;
+	/* border: 1px solid #63974b; */
+}
+
+.question
+{
+	padding: 20px;
+	margin-bottom: 20px;
+	
+	width:40%;
+	max-width: 600px;
+}
+
+.choice
+{
+	padding-left: 40px;
+}
+
 #message
 {
 	height:200px;
